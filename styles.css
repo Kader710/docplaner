@@ -1,0 +1,184 @@
+.TETE{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    position: sticky;
+}
+.Navire{
+    padding: 17px;
+    margin: 15px;
+}
+nav,a{
+    text-decoration: none;
+    
+}
+.image{
+    padding: 20px;
+}
+
+.propos{
+    color: #5dc6b0;
+}
+
+.entete{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin: 20px;
+}
+
+.titre{
+    font-size: xx-large;
+    color: #5dc6b0;
+}
+
+.text{
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    padding: 10px;
+    
+}
+
+.grand{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    padding: 30px;
+
+}
+.contain1{
+    background-color: #5dc6b0;
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+    margin: 50px;
+    position: relative;
+    height: 300px;
+    font-size: x-large;
+    flex-basis: 50;
+    width: 200;
+}
+.contain2{
+    background-color: #4293db;
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+    margin: 50px;
+    position: relative;
+    height: 300px;
+    font-size: x-large;
+    flex-basis: 50;
+    width: 200;
+
+}
+.contain3{
+    background-color: #042249;
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+    margin: 50px;
+    position: relative;
+    height: 300px;
+    font-size: x-large;
+    flex-basis: 50;
+    width: 200;
+}
+.select1{
+    background-color: #5dc6b0;
+    padding: 10px;
+    text-decoration: underline;
+    color: white;
+    border: none;
+}
+.select2{
+    background-color: #4293db;
+    padding: 10px;
+    text-decoration: underline;
+    color: white;
+    border: none;
+}
+.select3{
+    background-color: #042249;
+    padding: 10px;
+    text-decoration: underline;
+    color: white;
+    border: none;
+}
+.select4{
+    background-color: #042249;
+    padding: 10px;
+    text-decoration: underline;
+    color: white;
+    border: none;
+}
+
+.Haut{
+    color: #5dc6b0;
+    font-size: xx-large;
+    margin: 20px;
+}
+
+.middle{
+    padding: 60px;
+    display: grid;
+    grid-template-columns: repeat(5,110px);
+    grid-template-rows: repeat(3,110px);
+    
+}
+
+.mid{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.dle{
+    
+    height: 20px;
+}
+.milieu{
+   display: flex;
+   justify-content: space-between; 
+}
+
+.TEXTE{
+    width: 200px;
+    padding: 25px;
+}
+.sec{
+    color: #34b99d;
+    padding: 20px;
+}
+.second{
+    background-color: #ccebe7;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: column;
+    height: 600px;
+}
+.logO{
+    padding-top: 200px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.rang{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    padding-right: 80px;
+    overflow: hidden;
+    padding-top: 0%;
+    height: calc(100% - 90px);
+}
+.rang2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+    gap: 15px;
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    
+}
